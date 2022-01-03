@@ -7,8 +7,8 @@
     <field name="inherit_id" ref="product.product_template_only_form_view"/>
     <field name="arch" type="xml">
         <field name="description_sale" position="after">
-                <field name="x_show_in_ecommerce" />
-                <field name="x_description_sale_ecommerce" />
+                <field name="x_show_in_ecommerce" string = "Show in Ecommerce"/>
+                <field name="x_description_sale_ecommerce" string = "E-Commerce Product Description"/>
         </field>
     </field>
 </record>
