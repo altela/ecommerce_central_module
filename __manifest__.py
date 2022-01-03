@@ -8,8 +8,10 @@
     'description': """Adding several properties that pulled and integrated to Ecommerce created by Sempoa""",
     'category': 'Website',
     'website': 'https://altela.my.id',
-    'depends' : [],
+    'depends' : [
+        'stock'],
     'data': [
+        'views/productInherited.xml'
     ],
     'demo': [],
     'qweb': [],

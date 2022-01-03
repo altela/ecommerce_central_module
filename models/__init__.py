@@ -1,1 +1,1 @@
-from . import sempoaEcommerce
+from . import sempoaEcommerce, productInherited
