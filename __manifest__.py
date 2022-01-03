@@ -2,6 +2,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
     'name' : 'Ecommerce Sempoa Integration',
+    'author' : 'Altela Eleviansyah Pramardhika',
     'version' : '12.0',
     'summary': 'Adding several properties that pulled and integrated to Ecommerce created by Sempoa',
     'sequence': 1,
@@ -9,7 +10,8 @@
     'category': 'Website',
     'website': 'https://altela.my.id',
     'depends' : [
-        'stock'],
+        'stock',
+        'sale_management'],
     'data': [
         'views/productInherited.xml'
     ],
