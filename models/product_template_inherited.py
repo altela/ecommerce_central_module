@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 from odoo import api, fields, models
 
-class ProductInherited(models.Model):
+
+class ProductTemplateInherited(models.Model):
     _inherit = "product.template"
 
     x_show_in_ecommerce = fields.Boolean(store=True)

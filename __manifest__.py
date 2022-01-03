@@ -1,19 +1,19 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
-    'name' : 'Ecommerce Sempoa Integration',
-    'author' : 'Altela Eleviansyah Pramardhika',
-    'version' : '12.0',
-    'summary': 'Adding several properties that pulled and integrated to Ecommerce created by Sempoa',
+    'name': 'Central Ecommerce Integration',
+    'author': 'Altela Eleviansyah Pramardhika',
+    'version': '12.0',
+    'summary': 'Integrate Odoo ERP to Central E-Commerce',
     'sequence': 1,
     'description': """Adding several properties that pulled and integrated to Ecommerce created by Sempoa""",
     'category': 'Website',
     'website': 'https://altela.my.id',
-    'depends' : [
+    'depends': [
         'stock',
         'sale_management'],
     'data': [
-        'views/productInherited.xml'
+        'views/product_template_inherited.xml'
     ],
     'demo': [],
     'qweb': [],
