@@ -6,7 +6,7 @@
     'version': '12.0',
     'summary': 'Integrate Odoo ERP to Central E-Commerce',
     'sequence': 1,
-    'description': """Adding several properties that pulled and integrated to Ecommerce created by Sempoa""",
+    'description': """Integrate Odoo ERP to Central E-Commerce""",
     'category': 'Website',
     'website': 'https://altela.my.id',
     'depends': [
